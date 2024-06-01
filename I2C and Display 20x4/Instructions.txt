@@ -1,0 +1,48 @@
+Sure! Here is an improved and detailed explanation of your project in English:
+
+---
+
+## Objective:
+The objective of this project is for students to utilize the I2C communication protocol to connect an HD44780 2004 LCD display to a Raspberry Pi 3B+.
+
+## Introduction:
+I2C (Inter-Integrated Circuit) is a synchronous serial communication protocol that enables data transfer between electronic devices using two communication lines: SDA (Serial Data) and SCL (Serial Clock). The Raspberry Pi 3B+ supports the I2C protocol and has dedicated pins for I2C communication.
+
+## Materials:
+- Raspberry Pi 3B+
+- Raspberry Pi peripherals (keyboard, mouse, display)
+- HD44780 2004 LCD display
+- Connection wires
+
+## Development:
+### Step 1: Enabling I2C Protocol
+The first step is to enable the I2C protocol on the Raspberry Pi using the following command to open the configuration tool:
+
+```shell
+sudo raspi-config
+```
+
+### Step 2: Connecting I2C Devices
+I2C devices connect through two pins on the Raspberry Pi 3B+: SDA (pin 3) and SCL (pin 5). Ensure proper connections and use pull-up resistors on the SDA and SCL lines for stable communication.
+
+### Step 3: Utilizing a Library
+To simplify the use of the LCD display, we will use a library provided in this GitHub repository. This library abstracts many low-level details, making it easier to interface with the display. For example, this code demonstrates basic display functionality found in the repository.
+GitHub repository
+
+https://github.com/mmmarq/raspberry_lcd
+
+### Step 4: Implementing the Code
+Here is a sample of the code used to interact with the display. This code demonstrates how to initialize the display and write text to it.
+
+### Step 5: Assembling the Circuit
+Connect the LCD display to the Raspberry Pi as per the wiring diagram provided. Ensure that the SDA and SCL lines are connected properly and pull-up resistors are used.
+
+### Step 6: Running the Code
+Run the Python script to initialize the display and send text to it.
+
+## Troubleshooting:
+During the implementation, we faced visualization issues where the display showed no information. This was resolved by using different jumpers and adjusting the display brightness. It was a reminder of the importance of using quality hardware and correctly configuring device parameters.
+
+## Conclusion:
+In implementing the I2C protocol with a Raspberry Pi 3B+ and a 20x4 LCD display, we faced and resolved several hardware-related issues. This experience highlighted the importance of using quality components and ensuring proper configuration in embedded systems projects. 
+
