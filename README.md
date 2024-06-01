@@ -25,11 +25,3 @@ Follow the detailed instructions in each project folder to set up your hardware 
 ## Contributions and Feedback 💡
 
 Contributions to this repository are welcome! Feel free to submit pull requests with your enhancements, bug fixes, or new projects. If you have any questions or suggestions, please open an issue or contact me directly.
-
-## License 📜
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
----
-
-Feel free to customize this introduction to better suit your specific projects and preferences.
